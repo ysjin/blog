@@ -4,15 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = 'ysjin'
 SITENAME = "ysjin's blog"
-# SITEURL = 'http://ysjin.github.io'
-# SITETITLE = 'ysjin\'s blog'
+SITEURL = 'http://ysjin.github.io'
+SITETITLE = 'ysjin\'s blog'
 
 COPYRIGHT_YEAR = 2016
 
-# EXTRA_PATH_METADATA = {
-#    'extra/custom.css': {'path': 'static/custom.css'},
-#    }
-# CUSTOM_CSS = 'static/custom.css'
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/my_style.css'},
+}
+CUSTOM_CSS = 'static/my_style.css'
 
 
 PATH = 'content'
@@ -40,6 +40,7 @@ AUTHOR_FEED_RSS = None
 
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
+# USE_LESS = True
 
 
 # Blogroll
@@ -48,13 +49,13 @@ MAIN_MENU = True
 
 # Social widget
 SOCIAL = (('github', 'http://github.com/ysjin'),
-          ('facebook', 'http://facebook.com/yongseok.jin'),)
+          ('facebook', 'http://facebook.com/yongseok.jin'))
 
 MENUITEMS = (('Archive', '/archives.html'),
              ('Category', '/categories.html'),
-             ('Tag', '/tags.html'),)
+             ('Tag', '/tags.html'))
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
