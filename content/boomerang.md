@@ -1,4 +1,5 @@
 title: 아이슬란드, 아일랜드, 그리스, 독일에서 있었던 일
+status: draft
 date: 2016-01-30
 category: book
 book-title: Boomerang - travels in the new third world

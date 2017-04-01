@@ -1,4 +1,5 @@
 Title: Opening a Blog
+status: draft
 Date: 2016-01-18
 Modified: 2016-04-07 22:00
 Category: 

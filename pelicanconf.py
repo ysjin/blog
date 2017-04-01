@@ -23,13 +23,13 @@ DEFAULT_LANG = u'en'
 
 THEME = "/home/jiny/pelicansite/theme-flex"
 
-PLUGIN_PATHS = 'pelican-plugins'
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['better_codeblock_line_numbering', 'render_math']
 
-MD_EXTENSIONS = [
-    'fenced_code',
-    'codehilite(css_class=highlight, pygments_style=monokai)',
-    'extra']
+#MARKDOWN = [
+    #'fenced_code',
+    #'codehilite(css_class=highlight, pygments_style=monokai)',
+    #'extra']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
